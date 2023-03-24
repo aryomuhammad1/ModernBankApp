@@ -6,8 +6,9 @@ import GetStarted from "./GetStarted";
 const Hero = () => (
   <section id="home" className={`flex flex-col md:flex-row ${styles.paddingY}`}>
     <div
-      className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+      className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 relative z-[5]`}
     >
+      <div className="absolute z-[1] w-[38%] h-[28%] rounded-full white__gradient md:blur-[230px] top-28 left-0 translate-x-[-60%]" />
       <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
         <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
         <p className={`${styles.paragraph} ml-2`}>
@@ -36,7 +37,7 @@ const Hero = () => (
     <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
       <img src={robot} alt="billing" className="w-[100%] h-[100%] z-[5]" />
       <div className="absolute z-[0] w-[60%] h-[35%] top-0 pink__gradient" />
-      <div className="absolute z-[1] w-[60%] h-[70%] rounded-full white__gradient bottom-[25%] right-11" />
+      <div className="absolute z-[1] w-[30%] h-[70%] rounded-full white__gradient bottom-[25%] right-11" />
       <div className="absolute z-[0] w-[40%] h-[60%] right-[55%] translate-x-2/4 bottom-[18%] blue__gradient" />
     </div>
 

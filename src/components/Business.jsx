@@ -7,7 +7,9 @@ import FeatureCard from "./FeatureCard";
 const Business = () => {
   return (
     <section className={`${layout.section}`}>
-      <div className={`${layout.sectionInfo} `}>
+      <div className={`${layout.sectionInfo} relative`}>
+        <div className="absolute z-[1] w-[90%] h-[90%] rounded-full blue__gradient md:blur-[250px] bottom-0 left-0 translate-x-[-70%] translate-y-[80%]" />
+        <div className="absolute z-[1] w-[45%] h-[45%] rounded-full blue__gradient md:blur-[250px] bottom-48 left-0 translate-x-[-85%] translate-y-[80%]" />
         <h2 className="font-poppins font-semibold text-[48px] leading-[76.8px] text-white">
           You do the business,
           <br /> we'll handle the money.

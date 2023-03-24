@@ -4,7 +4,7 @@ import styles from "../style";
 const FeatureCard = ({ icon, title, content }) => {
   return (
     <div
-      className={`flex-1 ${styles.flexCenter} flex-row flew-nowrap p-4 feature-card rounded-[20px] md:w-[570px] w-full mb-1`}
+      className={`flex-1 ${styles.flexCenter} flex-row flew-nowrap py-4 px-5 feature-card rounded-[20px] md:w-[570px] w-full mb-1`}
     >
       <div className={`${styles.flexCenter} p-5 rounded-full bg-dimBlue`}>
         <img
