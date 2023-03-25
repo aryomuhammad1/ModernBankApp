@@ -4,18 +4,18 @@ import { bill, google, apple } from "../assets";
 
 const Billing = () => {
   return (
-    <div className={`${layout.section}`}>
+    <section className={`${layout.section}`}>
       <div
         className={`${styles.flexCenter} md:justify-start w-[100%] md:w-[52%] relative`}
       >
         <div className="absolute z-[1] w-[60%] h-[60%] rounded-full pink__gradient md:blur-[350px] bottom-0 left-0 translate-x-[-60%]" />
-        <img src={bill} alt="bill" className="md:w-[90%] w-[80%] z-[5]" />
+        <img src={bill} alt="bill" className="md:w-[85%] w-[80%] z-[5]" />
       </div>
-      <div className={`${layout.sectionInfo} mt-6 md:mt-0 md:pr-10 `}>
+      <div className={`${layout.sectionInfo} md:pr-10 `}>
         <h2 className="font-poppins font-semibold text-[48px] leading-[76.8px] text-white">
-          Easily control your <br /> billing & invoicing.
+          Easily control your billing & invoicing.
         </h2>
-        <p className={`${styles.paragraph} max-w-[90%] mt-5`}>
+        <p className={`${styles.paragraph} md:max-w-[90%] w-full mt-5`}>
           Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
           aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
           placerat.
@@ -33,7 +33,7 @@ const Billing = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
