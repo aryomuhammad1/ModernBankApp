@@ -10,7 +10,7 @@ const Stats = () => (
       return (
         <div
           key={stat.id}
-          className={`flex-1 flex justify-start items-center md:flex-row flex-col p-3`}
+          className={`flex-1 flex justify-start items-center md:flex-row flex-col py-3`}
         >
           <h4 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white mr-4">
             {stat.value}
