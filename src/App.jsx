@@ -35,7 +35,8 @@ const App = () => (
         <CardDeal />
         <Testimonials />
         <Clients />
-        <CTA /> <Footer />
+        <CTA />
+        <Footer />
       </div>
     </div>
   </div>
