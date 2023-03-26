@@ -4,7 +4,7 @@ import { bill, google, apple } from "../assets";
 
 const Billing = () => {
   return (
-    <section className={`${layout.section}`}>
+    <section className={`${layout.sectionReverse}`}>
       <div
         className={`${styles.flexCenter} md:justify-start w-[100%] md:w-[52%] relative`}
       >
@@ -20,7 +20,7 @@ const Billing = () => {
           aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
           placerat.
         </p>
-        <div className={`${styles.flexStart} mt-8`}>
+        <div className={`${styles.flexStart} mt-8 mb-8 md:mb-0`}>
           <img
             src={apple}
             alt="apple"
