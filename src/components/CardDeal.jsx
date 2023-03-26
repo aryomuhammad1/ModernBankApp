@@ -14,7 +14,7 @@ const CardDeal = () => {
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
           aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
         </p>
-        <Button />
+        <Button className={"mt-8 z-[5]"} />
       </div>
       <div
         className={`${styles.flexCenter} md:justify-start w-[100%] md:w-[48%] md:pl-20`}

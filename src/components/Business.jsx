@@ -18,7 +18,7 @@ const Business = () => {
           building credit, earning rewards and saving money. But with hundreds
           of credit cards on the market.
         </p>
-        <Button />
+        <Button className={"mt-8 z-[5]"} />
       </div>
       <div
         className={`flex-1 ${styles.flexStart} flex-col md:mt-0 mt-14 md:pl-16`}

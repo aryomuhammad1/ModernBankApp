@@ -1,9 +1,13 @@
 import React from "react";
 import styles from "../style";
 
-const Button = () => {
+const Button = ({ className }) => {
   return (
-    <div className="font-poppins font-medium px-5 py-4 rounded-[10px] bg-blue-gradient text-primary mt-8 z-[5">
+    <div
+      className={` ${
+        className || ""
+      } font-poppins font-medium px-6 py-5 rounded-[10px] bg-blue-gradient text-lg text-primary cursor-pointer`}
+    >
       Get Started
     </div>
   );
