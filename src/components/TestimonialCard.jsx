@@ -5,7 +5,7 @@ import { quotes } from "../assets";
 const TestimonialCard = ({ content, name, title, img }) => {
   return (
     <div
-      className={`${styles.flexStart} flex-col feature-card rounded-[20px] py-16 px-10`}
+      className={`${styles.flexStart} flex-col feature-card rounded-[20px] py-16 px-10 z-[5]`}
     >
       <img src={quotes} alt="quotes" className="w-[42.6px] h-[27.6px]" />
       <p
@@ -14,7 +14,7 @@ const TestimonialCard = ({ content, name, title, img }) => {
         {content}
       </p>
       <div className="flex flex-row mt-6">
-        <img src={img} alt="profile" className="w-[62px] h-[62px]" />
+        <img src={img} alt="profile" className="w-[52px] h-[52px]" />
         <div className={`${styles.flexStart} flex-col ml-4`}>
           <p className={`${styles.paragraph} text-white text-xl`}>{name}</p>
           <p className={`${styles.paragraph} text-base`}>{title}</p>
